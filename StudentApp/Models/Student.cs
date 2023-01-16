@@ -1,4 +1,8 @@
-﻿namespace StudentApp.Models
+﻿using StudentApp.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.OpenApi;
+using Microsoft.AspNetCore.Http.HttpResults;
+namespace StudentApp.Models
 {
     public class Student
     {
